@@ -2,7 +2,7 @@
 
 Code behind the tables and claims in *Stacked Proximate-Prime Quadratics and the
 Covering of Square Intervals*, a continuation of *Congruence Entropy and
-Prime-Rich Proximate-Prime Quadratics* (Zenodo `10.5281/zenodo.20694503`).
+Prime-Rich Proximate-Prime Quadratics*.
 
 All results are **empirical/heuristic** — confirmed by computation, not proven.
 In particular the independence of witnesses (§4) and the covering law (§3) are
