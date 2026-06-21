@@ -40,7 +40,7 @@ python3 ppp_repro.py              # no argument -> prints the module docstring
 
 | target | paper | reproduces | ~time |
 |---|---|---|---|
-| `law` | §3 | $K(M)\approx 2(\log M)^2/\overline{C}$: measured $\overline\rho$ vs $\overline C/(2\log M)$, and curves-to-cover vs $\log(\#\text{bands})/\overline\rho$ | 10 s |
+| `law` | §3 | $K(M)\approx 2(\log M)^2/\overline{C}$: measured $\overline\rho$ vs $\overline C/(2\log M)$, and curves-to-cover vs $\log(\\#\text{bands})/\overline\rho$ | 10 s |
 | `tworegime` | §5 | clustered vs constant-spread half-even: eligibility over-dispersion (60 vs 0.03) and the 50% ceiling vs recovery | 27 s |
 | `strict` | §6 | four consecutive semiprimes on a quadratic — rate (5.87%), monic fraction, shuffled-gap null (ratio ≈1.007), resulting $C_f\approx2.74$ | 15 s |
 | `roughness` | §6 | $P_1/P_2/P_3^+$ split vs $C_f$ (Euler 39.6/48.2/12.3, etc.) | 3 s |
