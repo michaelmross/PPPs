@@ -5,7 +5,7 @@ Covering of Square Intervals*, a continuation of *Congruence Entropy and
 Prime-Rich Proximate-Prime Quadratics*.
 
 All results are **empirical/heuristic** — confirmed by computation, not proven.
-In particular the independence of witnesses (§4) and the covering law (§3) are
+In particular, the independence of witnesses (§4) and the covering law (§3) are
 heuristic. The shared Bateman–Horn constant is written `C_f` (the predecessor's
 `C_f`; the singular series), and `Cbar` is its arithmetic mean over a stack.
 
