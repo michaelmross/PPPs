@@ -30,7 +30,7 @@ Total runtime is about **1 minute** on a normal machine. Run a single
 experiment instead:
 
 ```
-python3 ppp_repro.py law          # or: tworegime | strict | roughness | multiscale
+python3 ppp_repro.py law          # or: tworegime | strict | roughness | multiscale | cf_resolve | factor_pin
 python3 ppp_repro.py              # no argument -> prints the module docstring
 ```
 
