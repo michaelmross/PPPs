@@ -94,5 +94,4 @@ and the `multiscale` target both read it.
   the exact table numbers do.
 - **Heavy reruns.** `law` and `tworegime` were smoke-tested against the module;
   `multiscale` and `roughness` reproduce the paper numbers exactly (verified).
-  For a submission, archive one clean `python3 ppp_repro.py all` log alongside
-  the paper.
+ 
