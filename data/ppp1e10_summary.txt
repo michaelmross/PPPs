@@ -1,0 +1,130 @@
+ppp_gen  N=10,000,000,000  sieve bound M=10,535,127,594  (628 MB packed)
+  sieve  1.6%  1s
+  sieve  3.2%  2s
+  sieve  4.8%  3s
+  sieve  6.4%  4s
+  sieve  8.0%  6s
+  sieve  9.6%  7s
+  sieve 11.1%  8s
+  sieve 12.7%  9s
+  sieve 14.3%  10s
+  sieve 15.9%  11s
+  sieve 17.5%  12s
+  sieve 19.1%  13s
+  sieve 20.7%  15s
+  sieve 22.3%  16s
+  sieve 23.9%  17s
+  sieve 25.5%  18s
+  sieve 27.1%  19s
+  sieve 28.7%  20s
+  sieve 30.3%  21s
+  sieve 31.9%  22s
+  sieve 33.4%  23s
+  sieve 35.0%  24s
+  sieve 36.6%  25s
+  sieve 38.2%  26s
+  sieve 39.8%  27s
+  sieve 41.4%  28s
+  sieve 43.0%  29s
+  sieve 44.6%  30s
+  sieve 46.2%  31s
+  sieve 47.8%  32s
+  sieve 49.4%  34s
+  sieve 51.0%  35s
+  sieve 52.6%  36s
+  sieve 54.1%  37s
+  sieve 55.7%  38s
+  sieve 57.3%  39s
+  sieve 58.9%  40s
+  sieve 60.5%  41s
+  sieve 62.1%  42s
+  sieve 63.7%  43s
+  sieve 65.3%  44s
+  sieve 66.9%  45s
+  sieve 68.5%  46s
+  sieve 70.1%  47s
+  sieve 71.7%  48s
+  sieve 73.3%  49s
+  sieve 74.8%  50s
+  sieve 76.4%  52s
+  sieve 78.0%  53s
+  sieve 79.6%  54s
+  sieve 81.2%  55s
+  sieve 82.8%  56s
+  sieve 84.4%  57s
+  sieve 86.0%  58s
+  sieve 87.6%  59s
+  sieve 89.2%  60s
+  sieve 90.8%  61s
+  sieve 92.4%  62s
+  sieve 94.0%  63s
+  sieve 95.6%  64s
+  sieve 97.1%  65s
+  sieve 98.7%  66s
+sieve done in 66s
+records 7,126,670  distinct curves 6,693,752  shift-aliases 432,918
+a-values (records): 1:2174144 2:1559401 3:485516 4:1038262 5:463795 6:190447 7:352578 8:306214 9:107241 10:93988 11:118727 12:44397 13:66437 14:41340 15:8269 16:23919 17:18301 18:6607 19:10957 20:4125 21:1697 22:3366 23:2400 24:793 25:896 26:978 27:357 28:441 29:416 30:66 31:196 32:153 33:39 34:91 35:24 36:16 37:28 38:16 39:5 40:5 41:6 42:2 43:4 44:5 46:1 47:2 49:1 50:1
+N_2 max 0  N_3 max 0  N_5 max 1  D<0 all: True  (D/5)=+1 records: 448205 (all with 5|a: True)
+Legendre nonresidue score S_leg over p in 5,7,11,13,17,19,23,29,31
+  S_leg histogram (records) : 0:447 1:7566 2:62848 3:293498 4:848022 5:1598066 6:1965684 7:1531256 8:684648 9:134635   mean 5.837 (SE 0.001)   S=9: 134635 (1.89%)
+  S_leg histogram (distinct): 0:447 1:7536 2:62244 3:288364 4:824156 5:1530973 6:1848050 7:1406161 8:610452 9:115369   mean 5.797 (SE 0.001)   S=9: 115369 (1.72%)
+  root-count score S_root (N_p = 0): mean records 5.858, distinct 5.819, S_root=9: 120032 distinct
+null models for S_leg (S_root in parentheses):
+  uniform (b,c) given f(1..4)!=0:  E[S] 5.849 (5.849),  P(S=9) 1.83% (1.83%)
+  gap-matched analytic (distinct curves): E[S] 5.827 (5.849),  P(S=9) 1.86% (1.93%)  -> expected S=9 count 124647.6
+  observed (distinct): mean S 5.797 +- 0.001,  S=9 count 115369
+prime counts over n = 1..1000  (567s)
+  prime %: min 6.0  max 63.3  mean 21.79 (records) 21.64 (distinct)
+  C_f (exponent 1, p <= 997): min 1.38 mean 4.71 max 9.13
+  Bateman-Horn check: obs/pred mean 1.0112 sd 0.0507  corr(rho, pred) 0.9757  (the first four values are prime by construction: +0.31 pp expected)
+  same check excluding n = 1..4: obs/pred mean 0.9957 sd 0.0508  (a deficit here is expected: for p > n the value f(n) sits in a root-eligible class mod p, so its divisibility probability is E[N_p]/(p-4), not E[N_p]/p; the effect decays like 4/(n log n))
+  corr(rho, S_leg) 0.759  corr(rho, C_f) 0.940  corr(rho, log C_f) 0.930
+  threshold table (records): S  count  mean%  frac>=50%  mean C_f
+    0       447    9.53    0.00    2.02
+    1      7566   11.18    0.00    2.39
+    2     62848   13.02    0.00    2.79
+    3    293498   14.99    0.00    3.23
+    4    848022   17.15    0.00    3.70
+    5   1598066   19.48    0.00    4.21
+    6   1965684   22.01    0.00    4.76
+    7   1531256   24.76    0.00    5.36
+    8    684648   27.73    0.01    6.01
+    9    134635   30.93    0.03    6.71
+  top 10 by C_f (scale-free), with C_f / (2 e^gamma log log |D|), the asymptotic ERH ceiling:
+    n^2+9n+1655941891  p0=1655941901  C_f=9.126  ratio 0.82  S=9  431/1000  
+    2n^2-2n+3937645627  p0=3937645627  C_f=9.067  ratio 0.80  S=9  412/1000  
+    5n^2-5n+6922371133  p0=6922371133  C_f=9.004  ratio 0.78  S=8  367/1000  
+    2n^2+8n+8385626527  p0=8385626537  C_f=8.975  ratio 0.78  S=9  406/1000  
+    3n^2-3n+1891141163  p0=1891141163  C_f=8.916  ratio 0.79  S=9  395/1000  
+    2n^2+2n+4747167199  p0=4747167203  C_f=8.861  ratio 0.78  S=9  403/1000  
+    2n^2+1404332981  p0=1404332983  C_f=8.835  ratio 0.79  S=9  417/1000  
+    n^2-n+6956766851  p0=6956766851  C_f=8.830  ratio 0.78  S=9  403/1000  
+    n^2+n+6956766851  p0=6956766853  C_f=8.830  ratio 0.78  S=9  403/1000  alias
+    2n^2+10n+1794042751  p0=1794042763  C_f=8.827  ratio 0.79  S=9  418/1000  
+  top   100: mean% 53.46  mean S 8.17  all-nonres 36%
+  middle100: mean% 21.60  mean S 5.98  all-nonres 0%
+  bottom100: mean% 6.77  mean S 1.19  all-nonres 0%
+  best by count: 2n^2-2n+53089  633/1000  S=9  C_f=7.95
+catalog 2n^2+c, odd c < N, top 100 by C_f: 4 are PPPs (D matches a record).  C_f >= 9.13 (the PPP record C_f): 5
+    c=5278842689 C_f=9.224  primes(n=1..1000)=416  -
+    c=3215147009 C_f=9.218  primes(n=1..1000)=411  -
+    c=3945854501 C_f=9.184  primes(n=1..1000)=414  -
+    c=7792358141 C_f=9.167  primes(n=1..1000)=418  -
+    c=775814519 C_f=9.152  primes(n=1..1000)=451  -
+    c=3782552771 C_f=9.120  primes(n=1..1000)=394  -
+    c=6676918481 C_f=9.120  primes(n=1..1000)=387  -
+    c=3686849531 C_f=9.059  primes(n=1..1000)=387  -
+    c=2641108961 C_f=9.023  primes(n=1..1000)=400  -
+    c=2514966269 C_f=9.013  primes(n=1..1000)=425  -
+catalog n^2+n+c, odd c < N, top 100 by C_f: 3 are PPPs (D matches a record).  C_f >= 9.13 (the PPP record C_f): 4
+    c=5384581877 C_f=9.270  primes(n=1..1000)=410  -
+    c=3860549081 C_f=9.175  primes(n=1..1000)=440  -
+    c=854032997 C_f=9.130  primes(n=1..1000)=457  -
+    c=1655941871 C_f=9.126  primes(n=1..1000)=431  PPP
+    c=2216047511 C_f=9.101  primes(n=1..1000)=406  -
+    c=4123735151 C_f=9.090  primes(n=1..1000)=395  -
+    c=6152302421 C_f=9.073  primes(n=1..1000)=417  -
+    c=3594642341 C_f=9.066  primes(n=1..1000)=448  -
+    c=9510142841 C_f=9.034  primes(n=1..1000)=416  -
+    c=1616420411 C_f=9.017  primes(n=1..1000)=409  -
+wrote ppp1e10.csv and ppp1e10_summary.txt  (8393s total)
