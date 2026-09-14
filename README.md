@@ -1,5 +1,7 @@
 # Proximate-Prime Quadratics and the Coverage of Square Intervals
 
+**Pending update**
+
 Code and data supporting [*Proximate-Prime Quadratics: Forced Local Obstruction and a Conditioned Null Model*](https://doi.org/10.5281/zenodo.20694502) and [*Stacked Proximate-Prime Quadratics and the
 Covering of Square Intervals*](https://doi.org/10.5281/zenodo.20788482) (Ross, M. M., 2026)
 
