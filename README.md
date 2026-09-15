@@ -79,9 +79,7 @@ data/
   ppp_repro_log.txt              log of ppp_repro.py all (Paper 2 §§2, 4–6)
 ```
 
-The CSVs and summaries for $10^6$ to $10^9$ are not stored because they
-regenerate in seconds to a minute (below). The $10^{10}$ CSV is 92 MB and is not
-stored either; its summary is.
+The CSVs and summaries for $10^6$ to $10^9$ can be generated in seconds to a minute (below). The $10^{10}$ CSV is too big for the repository (at 744 MB).
 
 ## Dependencies
 
