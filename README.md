@@ -27,7 +27,7 @@ headers and per-experiment timing), capturing a log for the appendix:
 python3 ppp_repro.py all | tee ppp_repro_log.txt
 ```
 
-Total runtime is about **1 minute** on a normal machine. Run a single
+Total runtime is about **2 minutes** on a normal machine. Run a single
 experiment instead:
 
 ```
