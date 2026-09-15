@@ -27,7 +27,7 @@ with $N_p$ the number of roots of $f$ modulo $p$. The expected number of primes
 among $f(1),\ldots,f(N)$ is $\hat\pi_f(N)=\sum_{n\le N}C_f/\log f(n)$. For the
 always-odd forms this equals $2\,C(\Delta)$ in the notation of Jacobson–Williams;
 Euler's polynomial has $C_f=6.64$. The **nonresidue score** is
-$$S(D)=\#\{p\in\{5,7,\ldots,31\}:(D/p)=-1\}$$.
+$$S(D)=\\#\{p\in\{5,7,\ldots,31\}:(D/p)=-1\}$$.
 
 ## What the papers find
 
