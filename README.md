@@ -2,8 +2,8 @@
 
 **Pending update**
 
-Code and data supporting [*Proximate-Prime Quadratics: Forced Local Obstruction and a Conditioned Null Model*](https://doi.org/10.5281/zenodo.20694502) and [*Stacked Proximate-Prime Quadratics and the
-Covering of Square Intervals*](https://doi.org/10.5281/zenodo.20788482) (Ross, M. M., 2026)
+Code and data supporting [*Proximate-Prime Quadratics: Forced Local Obstruction and a Conditioned Null Model*](https://doi.org/10.5281/zenodo.20694502) and [*Stacked Prime-Rich Quadratics
+and the Covering of Square Intervals*](https://doi.org/10.5281/zenodo.20788482) (Ross, M. M., 2026)
 
 All results are **empirical/heuristic** — confirmed by computation, not proven.
 In particular, the independence of witnesses (§4) and the covering law (§3) are
